@@ -12,7 +12,6 @@ function countVowel() {
   let vowels = ["a", "e", "i", "o", "u"];
   let userSen = document.getElementById("sentence-input").value;
   let userStr = userSen.toLowerCase().split("");
-  console.log(userStr);
   for (var i = 0; i < userStr.length; i++) {
     for (var j = 0; j < vowels.length; j++)
       if (userStr[i] == vowels[j]) {
